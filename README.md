@@ -1,42 +1,45 @@
-Text Generation Web App with Streamlit and Hugging Face
+### Text Generation Web App with Streamlit and Hugging Face
 This is a simple web application that uses Streamlit to create a user interface for generating text using large language models from the Hugging Face Hub. It leverages the langchain-huggingface library to interact with the models.
 
-🚀 Features
-Easy-to-use Interface: A simple and intuitive web UI built with Streamlit.
+## 🚀 Features
 
-Powered by Hugging Face: Access a wide range of powerful text generation models available on the Hugging Face Hub.
+![Demo GIF](https://github.com/subhadipsinha722133/Text-Generate-Web-App/raw/main/Untitled%20design%20(1).gif)
 
-LangChain Integration: Utilizes LangChain for efficient interaction with the language models.
+- Easy-to-use Interface: A simple and intuitive web UI built with Streamlit.
 
-Secure API Key Handling: Uses environment variables to securely manage your Hugging Face API token.
+- Powered by Hugging Face: Access a wide range of powerful text generation models available on the Hugging Face Hub.
 
-🛠️ Technologies Used
-Python: The core programming language.
+- LangChain Integration: Utilizes LangChain for efficient interaction with the language models.
 
-Streamlit: For building the interactive web application.
+- Secure API Key Handling: Uses environment variables to securely manage your Hugging Face API token.
 
-LangChain Hugging Face: The library to connect with and use Hugging Face models.
+## 🛠️ Technologies Used
+- Python: The core programming language.
 
-Hugging Face Hub: Provides the pre-trained language models.
+- Streamlit: For building the interactive web application.
 
-python-dotenv: To manage environment variables.
+- LangChain Hugging Face: The library to connect with and use Hugging Face models.
 
-⚙️ Setup and Installation
+- Hugging Face Hub: Provides the pre-trained language models.
+
+- python-dotenv: To manage environment variables.
+
+## ⚙️ Setup and Installation
 Follow these steps to get the application running on your local machine.
 
-1. Prerequisites
+- 1. Prerequisites
 Python 3.8 or higher
 
-pip (Python package installer)
+- pip (Python package installer)
 
-2. Clone the Repository
+- 2. Clone the Repository
 Clone this repository to your local machine using git:
 
-git clone <your-repository-url>
+- git clone <your-repository-url>
 cd text-generate-web-app
 
-3. Install Dependencies
-Install the required Python packages using the requirements.txt file. It's recommended to do this in a virtual environment.
+- 3. Install Dependencies
+- Install the required Python packages using the requirements.txt file. It's recommended to do this in a virtual environment.
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
@@ -51,20 +54,20 @@ streamlit
 langchain-huggingface
 python-dotenv
 
-4. Set Up Environment Variables
-You need a Hugging Face API token to use the models.
+- 4. Set Up Environment Variables
+- You need a Hugging Face API token to use the models.
 
-Get your token from the Hugging Face website.
+- Get your token from the Hugging Face website.
 
-Create a file named .env in the root directory of your project.
+- Create a file named .env in the root directory of your project.
 
-Add your Hugging Face API token to the .env file like this:
+- Add your Hugging Face API token to the .env file like this:
 
-HUGGINGFACEHUB_API_TOKEN="your_hf_api_token_here"
+- HUGGINGFACEHUB_API_TOKEN="your_hf_api_token_here"
 
-▶️ How to Run the Application
-Once you have completed the setup, you can run the Streamlit app with the following command in your terminal:
+## ▶️ How to Run the Application
+- Once you have completed the setup, you can run the Streamlit app with the following command in your terminal:
 
-streamlit run app.py
+- streamlit run app.py
 
-This will start the web server and open the application in your default web browser.
+- This will start the web server and open the application in your default web browser.
